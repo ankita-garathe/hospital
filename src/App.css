@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+input#terms {
+  margin-left: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  text-align: start;
+  padding: 25px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-check-input {
+  margin-left: 0px !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[id^="day"]{
+  margin-left:0px !important;
 }
-
-.App-link {
-  color: #61dafb;
+h2#heading {
+  text-align:center;
+  padding:10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+select#role {
+  padding: .375rem .75rem;
+}
+div#termsCondition {
+  padding-left: 0px;
+}
+div#selectDays {
+  padding-left: 0px;
+}
+.error-message {
+  color: red;
+  font-size: 14px; /* optional: adjust font size */
+  padding: 5px;
+  margin: 0px;
+}
+div#first,div#last,div#phone,div#addressLine,div#roles ,div#special,div#experties,div#qualif,div#email,div#passW,div#confPass{
+  margin-bottom: 5px;
 }

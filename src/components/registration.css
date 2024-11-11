@@ -1,0 +1,13 @@
+input#terms {
+  margin-left: 0px;
+}
+form {
+  text-align: start;
+  padding: 25px;
+}
+.form-check-input {
+  margin-left: 0px !important;
+}
+input[id^="day"]{
+  margin-left:0px !important;
+}

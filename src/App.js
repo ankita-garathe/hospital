@@ -1,9 +1,10 @@
 import "./App.css";
-import MainPage from "./components/MainPage";
+import Footer from "./components/Footer";
 import NavBar1 from "./components/NavBar1";
 import NavBar2 from "./components/NavBar2";
 import Registration from "./components/Registration";
 import SideBar1 from "./components/SideBar1";
+import StafRegistration from "./components/StafRegistration";
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
             <SideBar1 />
             {/* partial */}
             {/* <MainPage /> */}
-            <Registration />
+            <StafRegistration />
+
+            {/* <Registration /> */}
             {/* main-panel ends */}
           </div>
           {/* page-body-wrapper ends */}

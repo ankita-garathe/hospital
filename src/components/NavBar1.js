@@ -7,7 +7,10 @@ function NavBar1() {
         <div className="navbar-brand-wrapper d-flex justify-content-center">
           <div className="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
             <a className="navbar-brand brand-logo" href="index.html">
-              <img src="../../../assets/images/logo.svg" alt="logo" />
+              <img
+                src="../../../assets/images/hospital-management-system.jpg"
+                alt="logo"
+              />
             </a>
             <a className="navbar-brand brand-logo-mini" href="index.html">
               <img src="../../../assets/images/logo-mini.svg" alt="logo" />
@@ -31,10 +34,12 @@ function NavBar1() {
                 id="profileDropdown"
               >
                 <img
-                  src="../../../assets/images/faces/face5.jpg"
+                  src="../../../assets/images/doctor-img.png"
                   alt="profile"
                 />
-                <span className="nav-profile-name">Eugenia Mullins</span>
+                <span className="nav-profile-name">
+                  Hospitalizations Management
+                </span>
               </a>
               <div
                 className="dropdown-menu dropdown-menu-right navbar-dropdown"

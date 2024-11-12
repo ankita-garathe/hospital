@@ -1,12 +1,7 @@
 input#terms {
   margin-left: 0px;
 }
-form {
-  text-align: start;
-  padding: 25px;
-  margin-left: 15%;
-  margin-right: 15%;
-}
+
 .form-check-input {
   margin-left: 0px !important;
 }
@@ -32,6 +27,15 @@ div#selectDays {
   padding: 5px;
   margin: 0px;
 }
-div#first,div#last,div#phone,div#addressLine,div#roles ,div#special,div#experties,div#qualif,div#email,div#passW,div#confPass{
+/* div#first,div#last,div#phone,div#addressLine,div#roles ,div#special,div#experties,div#qualif,div#email,div#passW,div#confPass{
   margin-bottom: 5px;
+} */
+div#mainPanel {
+  padding: 0px 25px 25px 25px;
+}
+select#selectOption {
+  border: var(--bs-border-width) solid var(--bs-border-color);
+}
+.sidebar .nav .nav-item.active > .nav-link{
+  background: none;
 }
